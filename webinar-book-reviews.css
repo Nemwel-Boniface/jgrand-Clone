@@ -1,0 +1,184 @@
+/*We are going to write the styling for the webinar, book reviews section*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2, p, h1, h3, a, h5
+{
+    color: #000;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 15px;
+}
+
+/*webinar reviews section*/
+
+.webinars
+{
+    margin: 60px 40px;
+}
+.webinar-heading
+{
+    margin-bottom: 25px;
+}
+.webinar-heading h1
+{
+    float: left;
+    margin: 0 60px 30px 0;
+    font-size: 28px;
+}
+.webinar-heading hr
+{
+    border-bottom: 5px solid black; 
+    position: relative;
+    top: 25px;
+}
+
+.the-webinars img
+{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.the-webinars p
+{
+    font-size: 18px;
+}
+
+/*Book review section styling */
+
+.book-reviews
+{
+    margin: 60px 40px;
+}
+.book-review h1
+{
+    float: left;
+    margin: 0 55px 30px 0;
+    font-size: 28px;
+}
+.book-review hr
+{
+    border-bottom: 5px solid black; 
+    position: relative;
+    top: 18px;
+}
+.books img
+{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.books p
+{
+    font-size: 18px;
+}
+
+
+
+
+/*Responsive designs now*/
+
+@media screen and (min-width: 57em )
+    /*webinar review styling now*/
+    
+{
+    .webinar-heading
+{
+    margin-bottom: 25px;
+}
+.webinar-heading h1
+{
+    float: left;
+    margin: 0 60px 30px 0;
+    font-size: 35px;
+}
+.webinar-heading hr
+{
+    border-bottom: 5px solid black; 
+    position: relative;
+    top: 25px;
+}
+    
+    .webinars  article
+    {
+        clear: left;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    
+    /*the book review styling now*/ 
+    
+    .book-review
+    {
+        margin-bottom: 25px;
+    }
+    .book-review h1
+    {
+        float: left;
+        margin: 0 60px 30px 0;
+        font-size: 32px;
+    }
+    .book-review hr
+    {
+      border-bottom: 5px solid black; 
+      position: relative;
+      top: 18px;
+    }
+    .book-reviews article
+    {
+        clear: left;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+/*this stylesheet includes the styling for the about me section*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2, p, h1, h3, a, h5
+{
+    color: #000;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 15px;
+}
+
+/*about me section now*/
+
+.about-me-header
+{
+    width: 100%;
+    height: 80vh;
+    background: #212529;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.about-me-header h2
+{
+    color: #ffcc00;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 30px 25px 30px 25px;
+    
+}
+.about-me-header p
+{
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin: 0 25px 30px 25px;
+}
+
+
+/*mantra mission and values section*/
+.mantra-mission-values
+{
+    margin: 80px 40px 80px 40px;
+}
+.mmv
+{
+    width: 100%;
+}
+
+/*mantra styling*/
+
+.mantra
+{
+    height: 280px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.mantra i
+{
+    text-align: center;
+    margin: 40px 110px 35px 110px;
+    font-size: 43px;
+    
+}
+.mantra h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 27px;
+    color: rgba(0,0,0, 0.6);
+}
+.mantra p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 18px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+
+/*mission styling*/
+
+.mission
+{
+    height: 405px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.mission i
+{
+    text-align: center;
+    margin: 40px 105px 35px 105px;
+    font-size: 43px;
+    
+}
+.mission h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 27px;
+    color: rgba(0,0,0, 0.6);
+}
+.mission p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 18px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+
+
+/*mantra styling*/
+
+.values
+{
+    height: 280px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.values i
+{
+    text-align: center;
+    margin: 40px 100px 35px 100px;
+    font-size: 43px;
+    
+}
+.values h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 27px;
+    color: rgba(0,0,0, 0.6);
+}
+.values p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 18px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+
+/*This part is for how i work section*/
+
+.how-i-work
+{
+    margin: 70px 40px 60px 40px;
+}
+.work
+{
+    width: 100%;
+}
+.work h2
+{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work p
+{
+    font-size: 18px;
+    
+}
+
+/*work goals style section now*/
+
+.my-goals
+{
+    margin: 60px 40px;
+}
+.goal-heading h2
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.goals-left img
+{
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+.goals-right p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.goals-right ul li
+{
+    font-size: 18px;
+    margin-bottom: 5px;
+    list-style-position: inside;
+}
+
+/*talk about your business now section*/
+
+.talk-about-biz
+{
+    width: 100%;
+    height: 80vh;
+    background: #212529;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.your-business
+{
+    margin: 50px 25px 50px 25px;
+}
+.your-business h2
+{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.your-business p 
+{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.your-business hr 
+{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 100px 25px 100px;
+}
+.your-business a 
+{
+    color: #fff;
+    padding: 16px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    margin: 30px 9px 30px 90px;
+    /*position: relative;
+    top: 20px;
+    left: 80px;*/
+
+    
+}
+.your-business a:hover 
+{
+    background: #fff;
+    color: #000;
+    
+}
+
+
+
+
+/*responsive layouts*/
+
+@media screen and (min-width: 57em )
+{
+    .about-me-header
+    {
+        width: 100%;
+        height: 90vh;
+        margin-top: 40px;
+    }
+    .about-me-header div
+    {
+        margin: 0 200px;
+    }
+    .about-me-header div h2
+    {
+        padding-top: 150px;
+        margin: 0 140px 30px 140px;
+        font-size: 60px;
+    }
+    .about-me-header div p
+    {
+        padding-bottom: 150px;
+        font-size: 20px;
+    }
+    
+    .mantra-mission-values
+    {
+        margin: 120px 40px 80px 40px;
+        display: grid;
+        /* instead of using just the normal one, lets create a responsive grid instead
+        grid-template-columns: repeat(3, 1fr);
+        */
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        gap: 30px;
+    }
+    
+    /*mantra styling*/
+
+.mantra
+{
+    height: 305px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.mantra i
+{
+    text-align: center;
+    margin: 40px 190px 35px 190px;
+    font-size: 48px;
+    
+}
+.mantra h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.6);
+}
+.mantra p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 20px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+
+/*mission styling*/
+
+.mission
+{
+    height: 405px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.mission i
+{
+    text-align: center;
+    margin: 40px 185px 35px 185px;
+    font-size: 48px;
+    
+}
+.mission h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.6);
+}
+.mission p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 20px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+
+
+/*mantra styling*/
+
+.values
+{
+    height: 280px;
+    background: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 20px -4px rgba(136,105,105,0.75);
+}
+.values i
+{
+    text-align: center;
+    margin: 40px 185px 35px 185px;
+    font-size: 48px;
+    
+}
+.values h2
+{
+    text-align: center;
+    margin: 0 55px 35px 55px;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.6);
+}
+.values p
+{
+    text-align: center;
+    margin: 0 30px 35px 30px;
+    font-size: 20px;
+    color: rgba(0,0,0, 0.6);
+    
+}
+    
+    /*How i work section*/
+    
+    .work h2
+    {
+        font-size: 50px;
+    }
+    .work p
+    {
+        font-size: 20px;
+    }
+    
+    /*our goals section*/
+    .goal-heading h2
+    {
+        font-size: 45px;
+        text-align: center;
+    }
+    .goals-right p
+    {
+        font-size: 20px;
+    }
+    .goals-right ul li
+    {
+        font-size: 20px;
+    }
+    .my-goals .divider
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    
+    /*talk about your business section now*/
+    
+    .your-business
+    {
+        margin: 0 150px 100px 150px;
+        padding-top: 70px;
+    }
+    .your-business h2
+    {
+        font-size: 50px;
+        margin: 0 80px 30px 80px;
+    }
+    .your-business p
+    {
+        font-size: 20px;
+        margin: 0 80px 40px 80px;
+    }
+    .your-business hr
+    {
+        margin: 0 280px 30px 280px;
+    }
+    .your-business a
+    {
+        margin: 0 360px 30px 360px;
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

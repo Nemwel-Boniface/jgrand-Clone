@@ -1,0 +1,180 @@
+/*This style sheet will contaun all the styling for the igrand mock opinion column section. the igrand site is  https://igrandbp.com */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2, p, h1, h3, a, h5
+{
+    color: #000;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 15px;
+}
+
+/*styling the opinions section */
+
+.opinions
+{
+    margin: 60px 40px;
+}
+.opinions-left img
+{
+    max-width: 100%;
+    margin-top: 40px;
+}
+.opinions-right
+{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+}
+.opinions-right img
+{
+   max-width: 100%;
+    margin-top: 40px; 
+}
+.opinion-top
+{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    right: 20px;
+
+}
+.opinion-bottom
+{
+    position: absolute;
+    bottom: 50px;
+    left: 42px;
+    padding: 10px;
+    color: #000;
+    background: #fff;
+    border: 1px solid black;
+    font-size: 17px;
+    transition: 0.5s;
+}
+/*.opinion-bottom:hover a
+{
+    color: #fff;
+    font-size: 25px;
+    background: #000;
+}*/
+
+/*subscribe to our newsletter section*/
+
+.subscribe
+{
+    margin: 110px 40px;
+    border: 4px solid black;
+    padding: 20px;
+}
+.subscribe h2
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.subscribe form
+{
+    padding: 10px;
+    text-align: center;
+}
+.subscribe form input
+{
+    width: 220px;
+    height: 40px;
+    margin-right: 20px;
+}
+.subscribe form button
+{
+    padding: 10px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.subscribe form button:hover
+{
+    background: #fff;
+    color: #000;
+}
+
+/* Responsive design now */
+
+@media screen and (min-width: 57em )
+{
+  .opinions-left img
+    {
+        float: left;
+        max-width: 100%;
+        height: 300px;
+        width: 300px;
+        margin-right: 35px;
+        margin-bottom: 15px;
+        
+    }
+    .opinion
+    {
+        clear: left;
+    }
+    .opinions
+    {
+        display: flex;
+    }
+    .opinion img
+    {
+        position: relative;
+        top: -49px;
+    }
+    .opinions article
+    {
+        flex: 2;
+        margin-right: 25px;
+    }
+    .opinions aside
+    {
+        flex: 1;
+        
+    }
+    .opinion-bottom
+    {
+        position: relative;
+        top: -160px;
+        left: 130px;
+        width: 155px;
+    }
+    
+.subscribe h2
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+.subscribe form input
+{
+    width: 380px;
+    height: 50px;
+}
+.subscribe form button
+{
+    padding: 15px;
+    width: 140px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+}
+

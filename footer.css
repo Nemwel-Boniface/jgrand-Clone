@@ -1,0 +1,206 @@
+/*we are going to be styling the footer section now*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2, p, h1, h3, a, h5
+{
+    color: #000;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 15px;
+}
+
+/*the horizontal hr styling now*/
+
+.hr
+{
+    width: 100%;
+    margin: 150px 0 60px 0;
+}
+.hor-hr hr
+{
+    border-bottom: 12px solid black;
+}
+/*The footer styling now*/
+
+.footer
+{
+    width: 100%;
+    background-color: #282828;
+}
+.footer article
+{
+    margin: 30px 40px 0 40px;
+}
+.footer-left-L
+{
+    padding-top: 15px;
+}
+.footer-left-L h2
+{
+    font-size: 22px;
+    color: #ffc107;
+    margin: 20px 0;
+}
+.footer-left-L p
+{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer-left-L hr
+{
+    border-bottom: 8px solid #ffc107;
+    width: 65%;
+}
+.footer-left-M h2
+{
+    font-size: 22px;
+    color: #ffc107;
+    margin: 20px 0;
+}
+.footer-left-M ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-left-M ul li a
+{
+    color: #fff;
+    font-size: 16px;
+    
+}
+.footer-left-M ul li a:hover
+{
+    color: #ffc107;
+}
+.footer-right-M h2
+{
+    font-size: 22px;
+    color: #ffc107;
+    margin: 20px 0;
+}
+.footer-right-M p
+{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-right-M a
+{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc107;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.footer-right-R h2
+{
+    font-size: 22px;
+    color: #ffc107;
+    margin: 60px 0 20px 0;
+}
+.footer-right-R a
+{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.footer-right-R a:hover
+{
+    color: #ffc107;
+    background: #fff;
+}
+.footer .copyright
+{
+    margin: 40px 40px 0 40px;
+}
+.footer .copyright p
+{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+.footer .copyright p fa fa-heart
+{
+    color: #ff0000;
+}
+.footer .copyright p a
+{
+    color: #ffc107;
+}
+
+
+
+/*Responsive design now*/
+
+@media screen and (min-width: 57em )
+{
+    /*The horizontal hr now */
+    
+    .hr
+    {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .footer 
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 25px;
+    }
+    .footer-right-R
+    {
+        position: relative;
+        top: -39px;
+    }
+    .copyright p
+    {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

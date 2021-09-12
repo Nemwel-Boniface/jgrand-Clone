@@ -1,0 +1,256 @@
+/*this file will contain all the css for the heading section which willinclude the social media links as well as the navigation links and the first section which is visible on screen load*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+} 
+h2, p, h1, h3, a
+{
+    color: #000;
+    text-decoration: none;
+}
+h2
+{
+    font-size: 25px;
+}
+p
+{
+    font-size: 15px;
+}
+
+header
+    {
+        width: 100%;
+    }
+
+/*1. top Socialmedia links*/
+.nav-icons
+{
+    width: 100%;
+    background: #000;
+    height: 40px;
+}
+.nav-icons a
+{
+    float: right;
+    position: relative;
+    right: 10%;
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 4px;
+}
+
+/*The page's heading*/
+.heading
+{
+    width: 100%;
+    background: #fff;
+    margin: 20px 0 0 0;
+}
+.heading h1
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+    padding: 20px;
+}
+
+/* The navigation links now */
+.nav-links
+{
+    width: 100%;
+    margin: 20px 10px;
+    background: #fff;
+    position: relative;
+    top: 20px;
+}
+.nav-links ul
+{
+    display: block;
+}
+.nav-links ul li
+{
+   /* border: 1px solid rgba(0,0,0, 0.1);*/
+    background: #fff;
+    padding: 10px;
+    list-style: none;
+}
+.nav-links ul li a
+{   
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav-links ul li a:hover
+{   
+   color: green;
+}
+
+
+/* The articles photos in the main page*/
+.four-photos
+{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.photos img
+{
+    margin: 20px;
+    max-width: 90%;
+}
+.photos h2
+{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.photos p
+{
+    text-align: center;
+    font-size: 15px;
+}
+.fade
+{
+    color: rgba(0,0,0, 0.4);
+}
+
+/* Weare going to be styling the main article section now */
+
+.main-article
+{
+    margin: 60px 40px;
+}
+.main-left img
+{
+    max-width: 100%;
+    margin-right: 23px;
+    margin-bottom: 20px;
+}
+.main-left h2
+{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px; 
+}
+.main-left p
+{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px; 
+}
+.main-right h2
+{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+.main-right p
+{
+    font-size: 15px;
+    margin-bottom: 10px; 
+}
+.main-right hr
+{
+    margin: 10px 0 10px 0;
+    font-size: 3px;
+}
+.main-right .right-links
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/*Responsive design */
+
+@media screen and (min-width: 57em )
+{
+    .nav-links
+{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    background: #fff;
+    position: relative;
+    top: 35px;
+}
+.nav-links ul
+{
+    margin-left: 35px;
+    overflow: hidden;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+.nav-links ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+.nav-links ul li a
+{   
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+    .four-photos
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .main-article
+    {
+        display: flex;
+    }
+    .main-article .main-left
+    {
+        margin-right: 25px;
+    }
+    .main-article .main-right
+    {
+        position: relative;
+        bottom: 36px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
