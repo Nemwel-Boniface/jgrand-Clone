@@ -1,2 +1,3 @@
 # jgrand-Clone
-This is a clone for https://igrandbp.com/ a blog website that i liked and cloned as my project my live site is https://nemwelb.000webhostapp.com/ . Technologies used areHTML, CSS and Javascript..
+This clone contains three pages in total. One is the main page, the about me page and a dummy article that is linked to all the article links.
+not all of the links are functional and I have attached links to my social media handles that work.
