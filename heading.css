@@ -1,4 +1,6 @@
-/*this file will contain all the css for the heading section which willinclude the social media links as well as the navigation links and the first section which is visible on screen load*/
+/*this file will contain all the css for the heading section 
+which willinclude the social media links as well as the navigation links and the first section which is visible on screen load
+ I used a mobile first approach to design*/
 
 *{
     margin: 0;
